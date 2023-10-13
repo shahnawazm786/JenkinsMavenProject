@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a990350-9ac4-4706-bc20-1e7eadab7f67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/Runs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/HomePagedefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+    <list default="true" id="4a990350-9ac4-4706-bc20-1e7eadab7f67" name="Changes" comment="jenkins integeration">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/OrangeHRMSHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/SeleniumCommonFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +104,91 @@
       <option name="presentableId" value="Default" />
       <updated>1697126437981</updated>
     </task>
+    <task id="LOCAL-00001" summary="jenkins integeration">
+      <created>1697131347520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131347520</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jenkins integeration">
+      <created>1697131353088</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131353088</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jenkins integeration">
+      <created>1697131358031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131358031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jenkins integeration">
+      <created>1697131363203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131363203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jenkins integeration">
+      <created>1697131368642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131368642</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jenkins integeration">
+      <created>1697131374135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131374135</updated>
+    </task>
+    <task id="LOCAL-00007" summary="jenkins integeration">
+      <created>1697131380180</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131380181</updated>
+    </task>
+    <task id="LOCAL-00008" summary="jenkins integeration">
+      <created>1697131385283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131385283</updated>
+    </task>
+    <task id="LOCAL-00009" summary="jenkins integeration">
+      <created>1697131393459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131393459</updated>
+    </task>
+    <task id="LOCAL-00010" summary="jenkins integeration">
+      <created>1697131401701</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131401701</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jenkins integeration">
+      <created>1697131406968</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131406968</updated>
+    </task>
+    <task id="LOCAL-00012" summary="jenkins integeration">
+      <created>1697131413101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697131413101</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,5 +201,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jenkins integeration" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins integeration" />
   </component>
 </project>
