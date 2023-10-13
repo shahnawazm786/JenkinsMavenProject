@@ -1,18 +1,24 @@
 package org.example.utils;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class SeleniumCommonFunction {
+    static WebDriverWait wait;
     public static WebElement findElement(WebDriver driver, By locator){
         return driver.findElement(locator);
     }
     public static WebElement findElement(WebDriver driver, WebElement element){
         return element;
     }
-    public static void waitForElementVisiblity(WebDriver driver){
+    public static void waitForElementVisibility(WebDriver driver,WebElement locator){
+        wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.ignoring(ElementClickInterceptedException.class, ElementNotInteractableException.class)
+                .until(ExpectedConditions.visibilityOf(locator));
 
     }
 }
