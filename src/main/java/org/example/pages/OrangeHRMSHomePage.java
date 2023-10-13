@@ -1,7 +1,7 @@
 package org.example.pages;
 
 import org.example.utils.SeleniumCommonFunction;
-import org.openqa.selenium.By;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,8 +17,14 @@ public class OrangeHRMSHomePage {
     //By loginH5=By.tagName("h5");
     @FindBy(how = How.TAG_NAME,using="h5")
     private WebElement loginH5;
-    public void verifyTagName(){
-        SeleniumCommonFunction.findElement(driver, loginH5);
+    @FindBy(how=How.XPATH,using="(//p[@class='oxd-text oxd-text--p'])[1]")
+    private WebElement pLoginName;
+    public void verifyTagName(WebDriver driver){
+        Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,loginH5));
+        //SeleniumCommonFunction.findElement(driver, loginH5);
     }
-
+    public void verifyLoginNameDisplayed(WebDriver driver){
+        boolean isDisplayed = SeleniumCommonFunction.isElementDisplayed(driver, pLoginName);
+        Assert.assertTrue(isDisplayed);
+    }
 }
