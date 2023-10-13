@@ -16,13 +16,13 @@ public class SeleniumCommonFunction {
         return element;
     }
     public static void waitForElementVisibility(WebDriver driver,WebElement locator){
-        wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait=new WebDriverWait(driver, Duration.ofSeconds(ICommonValue.TIME_OUT));
         wait.ignoring(ElementClickInterceptedException.class, ElementNotInteractableException.class)
                 .until(ExpectedConditions.visibilityOf(locator));
 
     }
     public static boolean isElementDisplayed(WebDriver driver,By element){
-        return new WebDriverWait(driver,Duration.ofSeconds(20))
+        return new WebDriverWait(driver,Duration.ofSeconds(ICommonValue.TIME_OUT))
                 .until((WebDriver d)->d.findElement(element).isDisplayed());
     }
 }
