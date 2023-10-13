@@ -1,5 +1,6 @@
 package org.example.pages;
 
+import org.example.utils.SeleniumCommonFunction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,7 +18,7 @@ public class OrangeHRMSHomePage {
     @FindBy(how = How.TAG_NAME,using="h5")
     private WebElement loginH5;
     public void verifyTagName(){
-
+        SeleniumCommonFunction.findElement(driver, loginH5);
     }
 
 }
