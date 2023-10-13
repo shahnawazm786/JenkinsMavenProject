@@ -21,4 +21,8 @@ public class SeleniumCommonFunction {
                 .until(ExpectedConditions.visibilityOf(locator));
 
     }
+    public static boolean isElementDisplayed(WebDriver driver,By element){
+        return new WebDriverWait(driver,Duration.ofSeconds(20))
+                .until((WebDriver d)->d.findElement(element).isDisplayed());
+    }
 }
