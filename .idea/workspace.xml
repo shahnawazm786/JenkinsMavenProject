@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a990350-9ac4-4706-bc20-1e7eadab7f67" name="Changes" comment="jenkins integeration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/ICommonValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/OrangeHRMSHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/OrangeHRMSHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/ICommonValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/ICommonValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/SeleniumCommonFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/SeleniumCommonFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HomePagedefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HomePagedefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,14 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JenkinsMavenProject/src/test/java/steps&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/JenkinsMavenProject/src/test/java/steps"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JenkinsMavenProject\src\test" />
@@ -251,7 +253,35 @@
       <option name="project" value="LOCAL" />
       <updated>1697165889672</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="jenkins integeration">
+      <created>1697165999116</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697165999116</updated>
+    </task>
+    <task id="LOCAL-00023" summary="jenkins integeration">
+      <created>1697166005930</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697166005930</updated>
+    </task>
+    <task id="LOCAL-00024" summary="jenkins integeration">
+      <created>1697166011995</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1697166011995</updated>
+    </task>
+    <task id="LOCAL-00025" summary="jenkins integeration">
+      <created>1697166020999</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1697166020999</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
