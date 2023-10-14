@@ -57,4 +57,16 @@ public class OrangeHRMSHomePage {
     public void verifyForgotPasswordLink(WebDriver driver){
         Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,forgotPasswordLink));
     }
+    public void verifyIconLinkedInDisplayed(WebDriver driver){
+        Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,iconLinkedIn));
+    }
+    public void verifyIconFaceBookDisplayed(WebDriver driver){
+        Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,iconFacBook));
+    }
+    public void verifyIconTwitterDisplayed(WebDriver driver){
+        Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,iconTwitter));
+    }
+    public void verifyIconYoutubeDisplayed(WebDriver driver){
+        Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,iconYoutube));
+    }
 }
