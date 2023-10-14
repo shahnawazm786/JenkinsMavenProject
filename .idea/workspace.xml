@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a990350-9ac4-4706-bc20-1e7eadab7f67" name="Changes" comment="jenkins integeration">
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/EBrowserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/SetupDriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HomePagedefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HomePagedefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/Runs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Runs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -40,17 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JenkinsMavenProject/src/test/java/steps&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/JenkinsMavenProject/src/test/java/steps",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JenkinsMavenProject\src\test" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -Dbrowser" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.Runs">
     <configuration name="Scenario: Home Page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -72,6 +81,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommandLineRun" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="JenkinsMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.Runs" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runs" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="JenkinsMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.Runs" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JenkinsMavenProject" />
       <extension name="coverage">
@@ -82,14 +125,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="Runners" />
       <option name="MAIN_CLASS_NAME" value="Runners.Runs" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="mvn test -Dbrowser=chrome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JenkinsMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.Runs" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="mvn test -Dbrowser=chrome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Home Page" />
+      <item itemvalue="JUnit.Runs" />
+      <item itemvalue="JUnit.CommandLineRun" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Runs" />
+        <item itemvalue="JUnit.CommandLineRun" />
+        <item itemvalue="JUnit.Runs (1)" />
         <item itemvalue="Cucumber Java.Scenario: Home Page" />
       </list>
     </recent_temporary>
@@ -102,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697126437981</updated>
-    </task>
-    <task id="LOCAL-00001" summary="jenkins integeration">
-      <created>1697131347520</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1697131347520</updated>
     </task>
     <task id="LOCAL-00002" summary="jenkins integeration">
       <created>1697131353088</created>
@@ -432,7 +493,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697298608047</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="jenkins integeration">
+      <created>1697298803898</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1697298803898</updated>
+    </task>
+    <task id="LOCAL-00049" summary="jenkins integeration">
+      <created>1697298808182</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1697298808182</updated>
+    </task>
+    <task id="LOCAL-00050" summary="jenkins integeration">
+      <created>1697298812637</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1697298812637</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
