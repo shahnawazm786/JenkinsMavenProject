@@ -51,4 +51,24 @@ public class HomePagedefs {
     public void iVerifyTheForgotPasswordLink() {
         orangeHRMSHomePage.verifyForgotPasswordLink(driver);
     }
+
+    @When("I verify linkedin icon")
+    public void iVerifyLinkedinIcon() {
+        orangeHRMSHomePage.verifyIconLinkedInDisplayed(driver);
+    }
+
+    @And("I verify facebook icon")
+    public void iVerifyFacebookIcon() {
+        orangeHRMSHomePage.verifyIconFaceBookDisplayed(driver);
+    }
+
+    @And("I verify twitter icon")
+    public void iVerifyTwitterIcon() {
+        orangeHRMSHomePage.verifyIconTwitterDisplayed(driver);
+    }
+
+    @And("I verify youtube icon")
+    public void iVerifyYoutubeIcon() {
+        orangeHRMSHomePage.verifyIconYoutubeDisplayed(driver);
+    }
 }
