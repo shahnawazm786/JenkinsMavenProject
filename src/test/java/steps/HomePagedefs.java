@@ -24,25 +24,31 @@ public class HomePagedefs {
 
     @When("I verify the username label")
     public void iVerifyTheUsernameLabel() {
+        orangeHRMSHomePage.verifyUserNameLabelDisplayed(driver);
     }
 
     @And("I verify the username text box")
     public void iVerifyTheUsernameTextBox() {
+        orangeHRMSHomePage.verifyUserNameTextDisplayed(driver);
     }
 
     @When("I verify the password label")
     public void iVerifyThePasswordLabel() {
+        orangeHRMSHomePage.verifyPasswordLabel(driver);
     }
 
     @And("I verify the password text box")
     public void iVerifyThePasswordTextBox() {
+        orangeHRMSHomePage.verifyPasswordTextBox(driver);
     }
 
     @And("I verify the login button")
     public void iVerifyTheLoginButton() {
+        orangeHRMSHomePage.verifyLoginButton(driver);
     }
 
     @When("I verify the forgot password link")
     public void iVerifyTheForgotPasswordLink() {
+        orangeHRMSHomePage.verifyForgotPasswordLink(driver);
     }
 }
