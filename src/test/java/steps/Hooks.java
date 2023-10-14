@@ -14,12 +14,8 @@ public class Hooks {
     static WebDriver driver;
     @Before
     public void setup(){
-        System.setProperty("driver.chrome.webdriver", ICommonValue.CHROME_PATH);
-        driver=new ChromeDriver();
-        SeleniumCommonFunction.pageImplicitWait(driver);
-        driver.get(ICommonValue.WEB_URL);
-        SeleniumCommonFunction.WebPageMaximize(driver);
-    }
+        driver=new SetupDriverManager().setDriver(System.getProperty("browser"));
+        }
     @After
     public void tearUp(){
         if(driver!=null){
