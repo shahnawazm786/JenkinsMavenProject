@@ -1,6 +1,8 @@
 package steps;
 
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import org.example.utils.ICommonValue;
 import org.example.utils.SeleniumCommonFunction;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +24,10 @@ public class Hooks {
            driver.close();
             //driver.quit();
         }
+    }
+    @AfterStep
+    public void addScreenShot(Scenario scenario){
 
     }
+
 }
