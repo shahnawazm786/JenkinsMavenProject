@@ -26,6 +26,10 @@ public class OrangeHRMSHomePage {
     By passwordTextBox=By.name(ILocator.passwordTextBoxByName);
     By loginButton=By.xpath(ILocator.loginButtonByXpath);
     By forgotPasswordLink=By.xpath(ILocator.forgotPasswordLinkByXpath);
+    By iconLinkedIn=By.xpath(ILocator.iconLinkedInByXpath);
+    By iconFacBook=By.xpath(ILocator.iconFaceBookByXpath);
+    By iconTwitter=By.xpath(ILocator.iconTwitterByXpath);
+    By iconYoutube=By.xpath(ILocator.iconYoutubeByXpath);
 
     public void verifyTagName(WebDriver driver){
         Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,loginH5));
