@@ -15,9 +15,13 @@ Feature: Home Page
     And I verify the login button
     When I verify the forgot password link
 
-  @smoke @regression @shortcut
+  @smoke @regression @icon
   Scenario: Home Page shortcut link verify
     Given open the orange hrms page
+    When I verify linkedin icon
+    And I verify facebook icon
+    And I verify twitter icon
+    And I verify youtube icon
 
 
 
