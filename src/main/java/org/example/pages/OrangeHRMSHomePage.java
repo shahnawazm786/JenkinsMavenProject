@@ -47,5 +47,10 @@ public class OrangeHRMSHomePage {
     public void verifyPasswordTextBox(WebDriver driver){
         Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,passwordTextBox));
     }
-
+    public void verifyLoginButton(WebDriver driver){
+        Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,loginButton));
+    }
+    public void verifyForgotPasswordLink(WebDriver driver){
+        Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,forgotPasswordLink));
+    }
 }
