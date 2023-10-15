@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a990350-9ac4-4706-bc20-1e7eadab7f67" name="Changes" comment="jenkins integeration">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/EBrowserName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/SetupDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DashboardsStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/orangehrmsdashboard.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/orangehrmslogin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runners/Runs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Runs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/home.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/JenkinsMavenProject/src/test/java/steps",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JenkinsMavenProject/src/test/java/steps&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JenkinsMavenProject\src\test" />
@@ -157,7 +161,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CommandLineRun" />
-        <item itemvalue="JUnit.Runs (1)" />
         <item itemvalue="Cucumber Java.Scenario: Home Page" />
       </list>
     </recent_temporary>
@@ -170,27 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697126437981</updated>
-    </task>
-    <task id="LOCAL-00002" summary="jenkins integeration">
-      <created>1697131353088</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1697131353088</updated>
-    </task>
-    <task id="LOCAL-00003" summary="jenkins integeration">
-      <created>1697131358031</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1697131358031</updated>
-    </task>
-    <task id="LOCAL-00004" summary="jenkins integeration">
-      <created>1697131363203</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1697131363203</updated>
     </task>
     <task id="LOCAL-00005" summary="jenkins integeration">
       <created>1697131368642</created>
@@ -514,7 +496,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697298812637</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="jenkins integeration">
+      <created>1697303120335</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1697303120339</updated>
+    </task>
+    <task id="LOCAL-00052" summary="jenkins integeration">
+      <created>1697303128626</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1697303128626</updated>
+    </task>
+    <task id="LOCAL-00053" summary="jenkins integeration">
+      <created>1697303137869</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1697303137869</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
