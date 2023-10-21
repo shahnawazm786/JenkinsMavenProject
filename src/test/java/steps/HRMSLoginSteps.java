@@ -20,7 +20,7 @@ public class HRMSLoginSteps {
 
     @When("user enter username as {string} and password as {string}")
     public void userEnterUsernameAsAndPasswordAs(String userName, String password) {
-        loginPage.enterDataInPasswordTextBox(userName);
+        loginPage.enterDataInUserNameTextBox(userName);
         loginPage.enterDataInPasswordTextBox(password);
     }
 
@@ -32,6 +32,16 @@ public class HRMSLoginSteps {
 
     @And("user click on login button")
     public void userClickOnLoginButton() {
+    loginPage.clickLoginButton();
+    }
 
+    @And("user enter password")
+    public void userEnterPassword() {
+        loginPage.enterDataInPasswordTextBox();
+    }
+
+    @And("user enter username")
+    public void userEnterUserName() {
+        loginPage.enterDataInUserNameTextBox();
     }
 }
