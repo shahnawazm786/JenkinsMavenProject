@@ -99,4 +99,12 @@ public class SeleniumCommonFunction {
     {
         wait=new WebDriverWait(driver,Duration.ofSeconds(ICommonValue.ELEMENT_TIME_OUT));
     }
+    public static String getText(WebDriver driver, By locator){
+        wait=new WebDriverWait(driver,Duration.ofSeconds(ICommonValue.ELEMENT_TIME_OUT));
+        wait.until(ExpectedConditions.and
+                (ExpectedConditions.visibilityOfElementLocated(locator)
+                        ,(ExpectedConditions.elementToBeClickable(locator))
+                ));
+        return driver.findElement(locator).getText();
+    }
 }
