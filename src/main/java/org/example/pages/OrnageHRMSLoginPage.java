@@ -27,6 +27,7 @@ public class OrnageHRMSLoginPage {
     }
 
     public void enterDataInUserNameTextBox(String userName){
+        System.out.println(userName);
         SeleniumCommonFunction.waitForElementVisibility(driver, userNameTextBoxByName);
         SeleniumCommonFunction.SendKeys(driver,userNameTextBoxByName,userName);
     }
@@ -35,6 +36,7 @@ public class OrnageHRMSLoginPage {
         SeleniumCommonFunction.SendKeys(driver,passwordTextBoxByName,"admin123");
     }
     public void enterDataInPasswordTextBox(String password){
+        System.out.println(password);
         SeleniumCommonFunction.waitForElementVisibility(driver, passwordTextBoxByName);
         SeleniumCommonFunction.SendKeys(driver,passwordTextBoxByName,password);
     }
