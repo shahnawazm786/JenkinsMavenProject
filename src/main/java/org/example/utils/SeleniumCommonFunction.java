@@ -107,4 +107,12 @@ public class SeleniumCommonFunction {
                 ));
         return driver.findElement(locator).getText();
     }
+    public static void click(WebDriver driver,By locator){
+        wait=new WebDriverWait(driver,Duration.ofSeconds(ICommonValue.ELEMENT_TIME_OUT));
+        wait.until(ExpectedConditions.and
+                (ExpectedConditions.visibilityOfElementLocated(locator)
+                        ,(ExpectedConditions.elementToBeClickable(locator))
+                ));
+        driver.findElement(locator).click();
+    }
 }
