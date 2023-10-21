@@ -16,8 +16,8 @@ public class Hooks {
     @After
     public void tearUp(){
         if(driver!=null){
-           driver.close();
-            //driver.quit();
+           //driver.close();
+            driver.quit();
         }
     }
     /*@After
