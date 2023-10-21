@@ -14,4 +14,6 @@ public interface ILocator {
     String iconYoutubeByXpath="//div[@class='orangehrm-login-footer-sm']/child::a[4]";
     String errorMessageLabelXpath="//p[@class='oxd-text oxd-text--p oxd-alert-content-text']";
 
+    String dashboardLabelXpath="//h6[text()='Dashboard']";
+
 }
