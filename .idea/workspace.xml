@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a990350-9ac4-4706-bc20-1e7eadab7f67" name="Changes" comment="jenkins integeration" />
+    <list default="true" id="4a990350-9ac4-4706-bc20-1e7eadab7f67" name="Changes" comment="jenkins integeration">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/OrnageHRMSLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/ILocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/ILocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/SeleniumCommonFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/SeleniumCommonFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HRMSLoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/orangehrmslogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/orangehrmslogin.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,27 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697126437981</updated>
-    </task>
-    <task id="LOCAL-00015" summary="jenkins integeration">
-      <created>1697164662091</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1697164662091</updated>
-    </task>
-    <task id="LOCAL-00016" summary="jenkins integeration">
-      <created>1697164667289</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1697164667289</updated>
-    </task>
-    <task id="LOCAL-00017" summary="jenkins integeration">
-      <created>1697164925662</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1697164925662</updated>
     </task>
     <task id="LOCAL-00018" summary="jenkins integeration">
       <created>1697164933604</created>
@@ -507,7 +493,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697346901867</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="jenkins integeration">
+      <created>1697358699591</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1697358699591</updated>
+    </task>
+    <task id="LOCAL-00065" summary="jenkins integeration">
+      <created>1697358703693</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1697358703693</updated>
+    </task>
+    <task id="LOCAL-00066" summary="jenkins integeration">
+      <created>1697358726506</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1697358726506</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
