@@ -18,6 +18,8 @@ public class OrnageHRMSLoginPage {
     By passwordTextBoxByName=By.name(ILocator.passwordTextBoxByName);
     By loginButtonByXpath=By.xpath(ILocator.loginButtonByXpath);
     By errorMessageLabelXpath=By.xpath(ILocator.errorMessageLabelXpath);
+    By dashboardLabelXpath=By.xpath(ILocator.dashboardLabelXpath);
+    By LoginButtonByXpath=By.xpath(ILocator.loginButtonByXpath);
 
     public void enterDataInUserNameTextBox(){
         SeleniumCommonFunction.waitForElementVisibility(driver, userNameTextBoxByName);
@@ -40,6 +42,14 @@ public class OrnageHRMSLoginPage {
         Assert.assertTrue(SeleniumCommonFunction.isElementDisplayed(driver,errorMessageLabelXpath));
     }
     public void verifyErrorMessageforInvalidCredential(String errorMessagge){
+    String actualMessage=SeleniumCommonFunction.getText(driver,errorMessageLabelXpath);
+    Assert.assertEquals(errorMessagge,actualMessage);
+    }
+    public void verifyDashboardLabelAfterSuccessfulLogin(){
+        SeleniumCommonFunction.isElementDisplayed(driver,dashboardLabelXpath);
+    }
+    public void clickLoginButton(){
+        SeleniumCommonFunction.waitForElementVisibility(driver,loginButtonByXpath);
 
     }
 }
