@@ -5,11 +5,13 @@ Feature: Orange HRMS Login Feature
     @validcredential @regression
   Scenario: Login Scenario
       When user enter username 'Admin' and password 'admin123'
+      And user click on login button
       Then user should be able to login successfully
 
   @invalidcredential @regression
   Scenario Outline: Login Invalid Scenario
     When user enter username as "<user>" and password as "<password>"
+    And user click on login button
     Then user should be able to see the error message "<errormessage>"
 
 
