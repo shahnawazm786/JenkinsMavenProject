@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@login",
+        tags = "@invalidcredential",
         plugin = {"pretty","json:target/maven-json-file/orangehrms.json"}
 )
 public class Runs {
