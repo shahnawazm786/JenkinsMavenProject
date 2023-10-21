@@ -12,4 +12,6 @@ public interface ILocator {
     String iconFaceBookByXpath="//div[@class='orangehrm-login-footer-sm']/child::a[2]";
     String iconTwitterByXpath="//div[@class='orangehrm-login-footer-sm']/child::a[3]";
     String iconYoutubeByXpath="//div[@class='orangehrm-login-footer-sm']/child::a[4]";
+    String errorMessageLabelXpath="//p[@class='oxd-text oxd-text--p oxd-alert-content-text']";
+
 }
