@@ -18,6 +18,6 @@ Feature: Orange HRMS Login Feature
     |Admin||Admin||Invalid Credentials|
     |Admin123||Admin||Invalid Credentials|
     |Admin||admin234||Invalid Credentials|
-    |||admin123||Invalid Credentials|
-    |||Admin||Invalid Credentials|
+    |abc||admin123||Invalid Credentials|
+    |786||Admin||Invalid Credentials|
 
