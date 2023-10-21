@@ -50,6 +50,6 @@ public class OrnageHRMSLoginPage {
     }
     public void clickLoginButton(){
         SeleniumCommonFunction.waitForElementVisibility(driver,loginButtonByXpath);
-
+        SeleniumCommonFunction.click(driver,loginButtonByXpath);
     }
 }
