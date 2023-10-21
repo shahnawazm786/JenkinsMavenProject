@@ -3,7 +3,7 @@ package steps;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginSteps {
+public class HRMSLoginSteps {
     @When("user enter username {string} and password {string}")
     public void userEnterUsernameAdminAndPasswordAdmin(String username,String password) {
     }
