@@ -72,18 +72,20 @@
     <artifactId>maven-surefire-plugin</artifactId>
     <version>3.1.2</version>
         <configuration>
-            <systemPropertyVariables>
+            <!--<systemPropertyVariables>
                 <environment>${tagName}</environment>
-            </systemPropertyVariables>
+            </systemPropertyVariables> -->
             <includes>
-                <include>**/*Runs*.java</include>
+                <include>**/Runs.java</include>
             </includes>
-            <parallel>classes</parallel>
+            <parallel>methods</parallel>
 <!--            <parallel>classesAndMethods</parallel> -->
                 <useUnlimitedThreads>true</useUnlimitedThreads>
+            <threadCount>3</threadCount>
+            <forkCount>3</forkCount>
         </configuration>
     </plugin>
-        <plugin>
+        <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-failsafe-plugin</artifactId>
             <version>2.22.0</version>
@@ -99,6 +101,33 @@
                         <useUnlimitedThreads>true</useUnlimitedThreads>
                         <perCoreThreadCount>false</perCoreThreadCount>
                     </configuration>
+                </execution>
+            </executions>
+        </plugin> -->
+        <plugin>
+            <groupId>com.github.temyers</groupId>
+            <artifactId>cucumber-jvm-parallel-plugin</artifactId>
+            <version>5.0.0</version>
+            <executions>
+                <execution>
+                    <id>generateRunners</id>
+                    <phase>generate-test-sources</phase>
+                    <goals>
+                        <goal>generateRunners</goal>
+                    </goals>
+                    <configuration>
+                        <!-- Mandatory -->
+                        <!-- List of package names to scan for glue code. -->
+                        <glue>
+                            <package>steps</package>
+                        </glue>
+                        <featuresDirectory>src/test/resources</featuresDirectory>
+                        <cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
+
+                        <format>json,html</format>
+                        <tags>${tagName}</tags>
+                    </configuration>
+
                 </execution>
             </executions>
         </plugin>
