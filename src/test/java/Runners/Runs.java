@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "steps",
         tags = "@regression",
-        plugin = {"pretty","json:target/maven-json-file/orangehrms.json"}
+        plugin = {"pretty","json:target/cucumber-parallel/orange_hrms.json",
+        "html:target/cucumber-parallel/orange_hrms.html"}
 )
 public class Runs {
 }
