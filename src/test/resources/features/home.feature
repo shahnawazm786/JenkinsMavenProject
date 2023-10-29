@@ -7,7 +7,7 @@ Feature: Home Page
 
   @smoke @regression @login
   Scenario: Home Page login object verification
-    Given open the orange hrms page
+
     When I verify the username label
     And I verify the username text box
     When I verify the password label
